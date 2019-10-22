@@ -8,3 +8,8 @@ cd codingtask
 mvn clean install
 mvn spring-boot:run
 ```
+
+check on the web:
+```sh
+http://localhost:8080/report
+```

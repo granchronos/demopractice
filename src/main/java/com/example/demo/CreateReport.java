@@ -12,7 +12,7 @@ public class CreateReport {
         this.demoProject = demoProject;
     }
 
-    @GetMapping("/employees")
+    @GetMapping("/report")
     String all() {
         demoProject.start();
         return "OK";
